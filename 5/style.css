@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 60px; 
+}
+
+.buttonWrapper {
+    display: flex;
+}
+
+.buttonWrapper>button {
+    margin: 10px;
+    text-transform: capitalize;
+    padding: 4px;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 20px;
+}
+
+div{
+    width: 80%;
+    height: 100px;
+    background-color: rgb(173, 168, 168);
+    padding: 4px;
+    margin-bottom: 10px;
+}

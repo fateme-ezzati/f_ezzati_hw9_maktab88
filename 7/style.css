@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 60px;
+}
+
+.buttonWrapper {
+    display: flex;
+}
+
+.buttonWrapper>button {
+    margin: 10px;
+    text-transform: capitalize;
+    padding: 4px;
+    cursor: pointer;
+}
+
+div{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#yellowBar{
+    width: 10%;
+    border: navajowhite;
+    background-color: rgb(255, 174, 0);
+    border-radius: unset;
+    transition: .4s ease;
+}

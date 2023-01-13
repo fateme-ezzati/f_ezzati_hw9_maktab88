@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 60px;
+}
+
+div {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #04b904;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 15px;
+    transition: .4s ease;
+}
+
+.buttonWrapper {
+    display: flex;
+}
+
+.buttonWrapper>button {
+    margin: 10px;
+    text-transform: capitalize;
+    padding: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/table.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>User data CRUD</title>
+  </head>
+  <body>
+    <!-- create new user button -->
+    <button id="create-button" class="button" onclick="renderCreateUser()">
+      create user
+    </button>
+
+    <!-- The Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="close-button" class="close">&times;</span>
+
+        <header class="modal-header"><h2>DEFAULT</h2></header>
+
+        <main class="modal-body"></main>
+
+        <footer class="modal-footer"></footer>
+      </div>
+    </div>
+
+    <!-- user data table -->
+    <table>
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./javascripts/user-data.js"></script>
+    <script src="./javascripts/modal.js"></script>
+    <script src="./javascripts/main.js"></script>
+  </body>
+</html>

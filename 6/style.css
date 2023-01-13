@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 60px;
+}
+
+ul {
+    display: flex;
+}
+
+ul>li{
+    height: 32px;
+    line-height: 32px;
+    padding: 2px 5px;
+    text-transform: capitalize;
+    flex-grow: 1;
+    background-color: rgb(253, 228, 0);
+    list-style: none;
+    position: relative;
+    border-bottom: 1px solid;
+}
+
+ul>li>ul{
+    width: 100%;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    flex-direction: column;
+    display: none;
+}
