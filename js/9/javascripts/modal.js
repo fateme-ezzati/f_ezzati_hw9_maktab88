@@ -1,23 +1,20 @@
-// function modalOpen() {
-//   modal.style.display = 'block';
-// }
+function modalOpen() {
+    modal.fadeIn();
+}
 
-// function modalClose() {
-//   resetModal();
-//   modal.style.display = 'none';
-// }
+function modalClose() {
+    resetModal();
+    modal.fadeOut();
+}
 
-// function resetModal() {
-//   modalHeader.textContent = 'DEFAULT';
-//   modalBody.innerHTML = '';
-//   modalFooter.innerHTML = '';
-// }
+function resetModal() {9
+    modalHeader.text('DEFAULT');
+    modalBody.html('');
+    modalFooter.html('');
+}
 
-// closeButton.onclick = modalClose;
-
-// When the user clicks anywhere outside of the modal, close it
-// window.onclick = function (event) {
-//   if (event.target == modal) {
-//     modal.style.display = 'none';
-//   }
-// };
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modalClose()
+    }
+};

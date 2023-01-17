@@ -1,4 +1,4 @@
-const userData = [
+let userData = [
     {
         uid: 112233,
         firstName: "Amirhossein",
@@ -94,3 +94,7 @@ const userData = [
 //get elements
 const thead = $('thead');
 const tbody = $('tbody');
+const modal = $('#modal')
+const modalHeader = $('.modal-header>h2');
+const modalBody = $('.modal-body');
+const modalFooter = $('.modal-footer');

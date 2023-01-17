@@ -16,15 +16,30 @@
 .modal-content {
   background-color: #fefefe;
   margin: 50px auto; /* 15% from the top and centered */
-  padding: 20px 30px;
+  padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.modal-header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 /* The Close Button */
 .close {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
   color: #aaa;
-  float: right;
   font-size: 28px;
   font-weight: bold;
 }
@@ -35,4 +50,26 @@
   text-decoration: none;
   cursor: pointer;
   color: red;
+}
+
+.modal-body>p{
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.modal-body>p:nth-child(odd){
+  background-color: rgb(213 201 201 / 82%);
+}
+
+.modal-body>p>strong{
+  margin-right: 5px;
+}
+
+.modal-footer{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
